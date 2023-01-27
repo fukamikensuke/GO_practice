@@ -20,3 +20,9 @@ var "" interface{}(インターフェース型)汎用的なもの＊計算など
 var ""string ="100"
 i,_:=strconv.Atoi(s)(_は使わないものを入れることができる)
 
+実行方法
+go run main.go //
+
+go build -o main main.go
+
+./main

@@ -48,6 +48,4 @@ func main() {
 	arr4 := [...]string{"A", "B", "C", "D"}
 	fmt.Println(arr4)
 
-	var arr5 [...]int
-	arr5[0] = 1
 }
