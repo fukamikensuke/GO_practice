@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
+	//"./subcal"
 )
 
 func main() {
@@ -15,4 +16,9 @@ func main() {
 
 	_ = j
 	j = i * 2
+
+	//fmt.Println((subcal.Add(i, j)))
+
+	input := "Hello world"
+	fmt.Println(outer(input))
 }

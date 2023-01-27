@@ -8,44 +8,45 @@ func outer(input string) {
 	var s4 string = input
 	fmt.Println(s4)
 }
-func main() {
-	var i int = 100
-	fmt.Println(i)
 
-	var j, k int
-	j = i * 2
-	k = i * 300
+// func main() {
+// 	var i int = 100
+// 	fmt.Println(i)
 
-	fmt.Println(i, j, k)
+// 	var j, k int
+// 	j = i * 2
+// 	k = i * 300
 
-	a := 100
-	fmt.Println(a)
+// 	fmt.Println(i, j, k)
 
-	input := "Hello world"
-	outer(input)
-	// := は 最初は宣言で使っていいがその後上書き不可能
+// 	a := 100
+// 	fmt.Println(a)
 
-	var fl64 float64 = 2.4
-	fmt.Println(fl64)
+// 	input := "Hello world"
+// 	outer(input)
+// 	// := は 最初は宣言で使っていいがその後上書き不可能
 
-	fl := 3.2
-	fmt.Println(fl64 + fl)
-	fmt.Println("%T,%T\n", fl64, fl)
+// 	var fl64 float64 = 2.4
+// 	fmt.Println(fl64)
 
-	zero := 0.0
-	ninf := -1.0 / zero
-	fmt.Println(ninf)
+// 	fl := 3.2
+// 	fmt.Println(fl64 + fl)
+// 	fmt.Println("%T,%T\n", fl64, fl)
 
-	nan := zero / zero
-	fmt.Println(nan)
+// 	zero := 0.0
+// 	ninf := -1.0 / zero
+// 	fmt.Println(ninf)
 
-	var arr2 [3]string = [3]string{"A", "B", "c"}
-	fmt.Println(arr2[0])
+// 	nan := zero / zero
+// 	fmt.Println(nan)
 
-	arr3 := [3]int{1, 2, 3}
-	fmt.Println(arr3)
+// 	var arr2 [3]string = [3]string{"A", "B", "c"}
+// 	fmt.Println(arr2[0])
 
-	arr4 := [...]string{"A", "B", "C", "D"}
-	fmt.Println(arr4)
+// 	arr3 := [3]int{1, 2, 3}
+// 	fmt.Println(arr3)
 
-}
+// 	arr4 := [...]string{"A", "B", "C", "D"}
+// 	fmt.Println(arr4)
+
+// }
